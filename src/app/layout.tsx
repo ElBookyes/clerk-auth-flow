@@ -2,9 +2,9 @@ import { ClerkProvider, ClerkLoaded, ClerkLoading } from "@clerk/nextjs";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import SiteHeader from "@/components/SiteHeader";
-import { ThemeProvider } from "@/components/theme-provider";
-import LoadingSpinner from "@/components/LoadingSpinner";
+import SiteHeader from "@/src/components/SiteHeader";
+import { ThemeProvider } from "@/src/components/theme-provider";
+import LoadingSpinner from "@/src/components/LoadingSpinner";
 
 const inter = Inter({ subsets: ["latin"] });
 

@@ -1,9 +1,10 @@
 import { useState } from "react";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { Button } from "@/components/ui/button";
+import { Sheet, SheetContent, SheetTrigger } from "@/src/components/ui/sheet";
+import { Button } from "@/src/components/ui/button";
 import { Menu as MenuIcon } from "lucide-react";
 import { SignedIn } from "@clerk/nextjs";
 import Link from "next/link";
+import React from "react";
 
 export default function MobileNav() {
   const [open, setOpen] = useState(false);

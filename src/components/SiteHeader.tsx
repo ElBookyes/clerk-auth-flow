@@ -12,6 +12,7 @@ import MainNav from "./MainNav";
 import MobileNav from "./MobileNav";
 import { Button } from "./ui/button";
 import ModeToggle from "./ModeToggle";
+import React from "react";
 
 export default function SiteHeader() {
   return (
